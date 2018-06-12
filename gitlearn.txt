@@ -1,0 +1,45 @@
+pwd命令用于显示当前目录。在我的Mac上，这个仓库位于/Users/michael/learngit。
+
+通过git init命令把这个目录变成Git可以管理的仓库：
+
+git add gitlearn.txt
+
+git commit -m "wrote some commands"
+
+git log 
+
+git log --pretty=oneline //简化显示参数 
+
+git reflog 
+
+test
+
+git reset --hard HEAD^ //回到上一版本
+
+$ git reset --hard 112d7 //回到指点版本
+
+update
+
+cat readme.txt //查看文件
+
+git checkout 
+
+if I want to cancle update
+
+git log退出方法 英文状态下按Q
+
+git remote add origin https://github.com/morningchc/learnGit.git
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
